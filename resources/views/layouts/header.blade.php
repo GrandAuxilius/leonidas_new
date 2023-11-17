@@ -90,7 +90,7 @@
                     <div class="dropdown-menu menu-drop-user">
                         <div class="profilename">
                             <div class="profileset">
-                                <span class="user-img"><img src="{{ asset('storage/' . auth()->user()->staffUsers->profile)}}" alt="">
+                                <span class="user-img"><img src="" alt="">
                                     <span class="status online"></span></span>
                                 <div class="profilesets">
                                     <h6>Joe</h6>
@@ -143,6 +143,12 @@
     <script src="{{asset ('assets/plugins/sweetalert/sweetalerts.min.js')}}"></script>
 
     <script src="{{asset ('assets/js/script.js')}}"></script>
+
+    <script src="assets/js/feather.min.js"></script>
+
+
+
+<script src="{{ asset("assets/js/moment.min.js") }}"></script>
 </body>
 
 </html>
